@@ -5,8 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	command "github.com/gloo-foo/cmd-base64"
 	"github.com/gloo-foo/testable"
+
+	command "github.com/gloo-foo/cmd-base64"
 )
 
 // These tests pin GNU coreutils base64 behavior with fixed vectors, not

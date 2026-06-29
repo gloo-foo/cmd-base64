@@ -36,8 +36,8 @@ func (w Base64Wrap) Configure(flags *flags) {
 type wrapColumn uint
 
 type flags struct {
+	wrap          wrapColumn
 	decode        base64DecodeFlag
 	ignoreGarbage base64IgnoreGarbageFlag
-	wrap          wrapColumn
 	wrapSet       bool
 }

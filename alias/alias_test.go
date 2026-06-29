@@ -4,8 +4,9 @@ import (
 	"slices"
 	"testing"
 
-	b64 "github.com/gloo-foo/cmd-base64/alias"
 	"github.com/gloo-foo/testable"
+
+	b64 "github.com/gloo-foo/cmd-base64/alias"
 )
 
 // The alias package re-exports the constructor and flags under unprefixed names.

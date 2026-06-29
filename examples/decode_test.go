@@ -3,8 +3,9 @@ package base64_test
 import (
 	"fmt"
 
-	command "github.com/gloo-foo/cmd-base64"
 	"github.com/gloo-foo/testable"
+
+	command "github.com/gloo-foo/cmd-base64"
 )
 
 func ExampleBase64_decode() {
